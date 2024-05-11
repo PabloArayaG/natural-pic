@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: rgb(32, 32, 32);
+}
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #19cf23;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+span {
+  color: #19cf23;
+}
+a {
+  text-decoration: none;
+  color: #19cf23;
+}
+.navbar {
+  text-align: center;
+  background: #101010;
+  padding: 20px;
+  color: #43a047;
+}
+.gallery {
+  display: grid;
+  gap: 10px;
+}
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.gallery .photo {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 10px 10px 10px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+}
+.gallery .photo:hover {
+  box-shadow: 0px 0px 2px 1px black;
+}
+.gallery .photo svg {
+  align-self: flex-end;
+}
+.p-3 {
+  padding: 30px;
+}
